@@ -363,145 +363,10 @@
         </div>
     </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-    </script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="fotorama-4.6.4/fotorama.js"></script>
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.10.2/dojo/dojo.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-
-        $('.balabana-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.balabana').fadeIn();
-        });
-        $('.close-balabana').on('click', function(event) {
-            event.preventDefault();
-            $('.balabana').fadeOut();
-        });
-
-        $('.bogdhmel-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.bogdhmel').fadeIn();
-        });
-        $('.close-bogdhmel').on('click', function(event) {
-            event.preventDefault();
-            $('.bogdhmel').fadeOut();
-        });
-
-        $('.kulisha-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.kulisha').fadeIn();
-        });
-        $('.close-kulisha').on('click', function(event) {
-            event.preventDefault();
-            $('.kulisha').fadeOut();
-        });
-
-        $('.filatova-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.filatova').fadeIn();
-        });
-        $('.close-filatova').on('click', function(event) {
-            event.preventDefault();
-            $('.filatova').fadeOut();
-        });
-
-        $('.serbska-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.serbska').fadeIn();
-        });
-        $('.close-serbska').on('click', function(event) {
-            event.preventDefault();
-            $('.serbska').fadeOut();
-        });
-
-        $('.chornovola-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.chornovola').fadeIn();
-        });
-        $('.close-chornovola').on('click', function(event) {
-            event.preventDefault();
-            $('.chornovola').fadeOut();
-        });
-
-        $('.grebinky-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.grebinky').fadeIn();
-        });
-        $('.close-grebinky').on('click', function(event) {
-            event.preventDefault();
-            $('.grebinky').fadeOut();
-        });
-
-        $('.novakivskogo-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.novakivskogo').fadeIn();
-        });
-        $('.close-novakivskogo').on('click', function(event) {
-            event.preventDefault();
-            $('.novakivskogo').fadeOut();
-        });
-
-        $('.konyskoho-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.konyskoho').fadeIn();
-        });
-        $('.close-konyskoho').on('click', function(event) {
-            event.preventDefault();
-            $('.konyskoho').fadeOut();
-        });
-
-        $('.levyckogo-photo').on('click', function(event) {
-            event.preventDefault();
-            $('.levyckogo').fadeIn();
-        });
-        $('.close-levyckogo').on('click', function(event) {
-            event.preventDefault();
-            $('.levyckogo').fadeOut();
-        });
-        // navigation click actions 
-        $('.scroll-link').on('click', function(event) {
-            event.preventDefault();
-            var sectionID = $(this).attr("data-id");
-            scrollToID('#' + sectionID, 750);
-        });
-        // scroll to top action
-        $('.scroll-top').on('click', function(event) {
-            event.preventDefault();
-            $('html, body').animate({ scrollTop: 0 }, 'slow');
-        });
-        // mobile nav toggle
-        $('#nav-toggle').on('click', function(event) {
-            event.preventDefault();
-            $('#main-nav').toggleClass("open");
-        });
-    });
-    // scroll function
-    function scrollToID(id, speed) {
-        var offSet = 50;
-        var targetOffset = $(id).offset().top - offSet;
-        var mainNav = $('#main-nav');
-        $('html,body').animate({ scrollTop: targetOffset }, speed);
-        if (mainNav.hasClass("open")) {
-            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-            mainNav.removeClass("open");
-        }
-    }
-    if (typeof console === "undefined") {
-        console = {
-            log: function() {}
-        };
-    }
-    </script>
-
+    
 
     <!-- modal -->
+
     <div class="fotorama-wrap balabana">
         <button class="popup-close close-balabana">&times;</button>
         <div class="fotorama" data-width="60%" data-ratio="2/1" data-nav="thumbs" data-fit="cover" data-keyboard="true" data-allowfullscreen="true">
@@ -698,6 +563,7 @@
             <img src="img/filatova/1.jpg">
         </div>
     </div>
+    
      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
