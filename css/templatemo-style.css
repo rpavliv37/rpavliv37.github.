@@ -1,3 +1,11 @@
+/* 
+
+Tinker Template
+
+http://www.templatemo.com/tm-506-tinker
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -203,7 +211,7 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/panorama.jpg);
+  	background-image: url(../img/banner_bg.jpg);
   	vertical-align: middle;
 }
 
@@ -242,7 +250,7 @@ bootstrap.min.css:5
 
 #about {
 	padding: 150px 0px;
-	background-image: url(../img/bgc1.jpg);
+	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -324,7 +332,7 @@ bootstrap.min.css:5
 }
 
 #portfolio .section-heading {
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	background-color: #33c1cf;
 	height: 732px;
@@ -412,7 +420,7 @@ bootstrap.min.css:5
 
 
 #blog {
-	background-image: url(../img/84.jpg);
+	background-image: url(../img/blog-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -423,7 +431,7 @@ bootstrap.min.css:5
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: rgba(0, 0, 0, 0.5);
-	/*height: 582px;*/
+	height: 582px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 	overflow: hidden!important;
@@ -763,33 +771,6 @@ footer .connect-us ul li a:hover {
 }
 
 
-.fotorama-wrap{
-	display: none;
-	position: fixed;
-    top: 10%;
-    width: 100%;
-    height: 100%;
-    z-index: 900000;
-    background-color: rgba(0, 0, 0, 0.7);;
-}
-
-.popup-close{
-	cursor: pointer;
-	position: absolute;
-	top: -1%;
-	right: 16%;
-	width: 2rem;
-	text-align: center;
-	border: none;
-	background-color: transparent;
-	font-size: 20px;
-	color: #fff;
-}
-
-.fotorama__wrap {
-	margin: 0 auto;
-}
-
 /* RESPONSIVE */
 
 @media (max-width: 991px){
@@ -808,7 +789,7 @@ footer .connect-us ul li a:hover {
 		padding-top: 100px;
 		padding-bottom: 100px;
 		background-color: #33c1cf;
-		height: 605px;
+		height: 505px;
 		margin-left: -15px;
 		padding-left: 0vh;
 		margin-right: -15px;
