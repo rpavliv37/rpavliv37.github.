@@ -211,7 +211,7 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/banner_bg.jpg);
+  	background-image: url(../img/panorama.jpg);
   	vertical-align: middle;
 }
 
@@ -420,7 +420,7 @@ bootstrap.min.css:5
 
 
 #blog {
-	background-image: url(../img/blog-bg.jpg);
+	background-image: url(../img/84.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -431,7 +431,7 @@ bootstrap.min.css:5
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 582px;
+	/*height: 582px;*/
 	margin-left: -100vh;
 	padding-left: 100vh;
 	overflow: hidden!important;
