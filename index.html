@@ -21,6 +21,8 @@
         <link rel="stylesheet" href="css/owl-carousel.css">
         <link rel="stylesheet" href="css/templatemo-style.css">
         <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="slick-1.8.0/slick/slick.css">
+        <link rel="stylesheet" href="slick-1.8.0/slick/slick-theme.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -70,7 +72,7 @@
     <section id="about" class="page-section">
         <div class="container">
             <div class="row features-slider">
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div>
                     <div class="service-item">
                         <div class="icon">
                             <img src="img/002-placeholder.svg" alt="">
@@ -83,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div>
                     <div class="service-item">
                         <div class="icon">
                             <img src="img/booking.svg" alt="">
@@ -96,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div>
                     <div class="service-item">
                         <div class="icon">
                             <img src="img/contract.svg" alt="">
@@ -109,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div>
                     <div class="service-item">
                         <div class="icon">
                             <img src="img/customer.svg" alt="">
@@ -364,13 +366,16 @@
     </footer>
 
 
-    <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-    </script>
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script> -->
+
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.10.2/dojo/dojo.js"></script>
+    
+    <!-- slick slider -->
+    <script src="slick-1.8.0/slick/slick.min.js"></script>
+
     <script>
     $(document).ready(function() {
 
@@ -389,6 +394,31 @@
         $('#nav-toggle').on('click', function(event) {
             event.preventDefault();
             $('#main-nav').toggleClass("open");
+        });
+
+        $('.features-slider').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                        prevArrow: '<button class="prev arrow"></button>',
+                        nextArrow: '<button class="next arrow"></button>',
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        prevArrow: '<button class="prev arrow"></button>',
+                        nextArrow: '<button class="next arrow"></button>'
+                    }
+                }
+            ]
         });
     });
     // scroll function
