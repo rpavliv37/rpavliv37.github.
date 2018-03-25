@@ -646,7 +646,7 @@ bootstrap.min.css:5
 footer {
 	margin-top: -6px;
 	background-color: #373a3c;
-	padding: 50px 0px;
+	padding: 30px 0px;
 }
 footer .logo em {
 	font-style: normal;
@@ -711,7 +711,7 @@ footer .contact-info h4 {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 
 footer .contact-info ul li {
