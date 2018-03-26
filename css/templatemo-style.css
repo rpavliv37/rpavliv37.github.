@@ -408,7 +408,7 @@ bootstrap.min.css:5
 	letter-spacing: 0.5px;
 }
 
-#testimonial .testimonials-item p {
+#testimonial .testimonials-item div {
 	font-size: 16px;
 	color: #9a9a9a;
 	font-style: italic;
@@ -416,6 +416,15 @@ bootstrap.min.css:5
 	background-color: #fff;
 	padding: 30px;
 	border-radius: 5px;	
+}
+
+#testimonial .testimonials-item p{
+vertical-align: middle;
+}
+
+#testimonial .testimonials-item img{
+border-radius: 45%;
+float: left;
 }
 
 .owl-pagination {
@@ -441,7 +450,7 @@ bootstrap.min.css:5
 
 
 #blog {
-	background-image: url(../img/wallhaven-635900.png);
+	background-image: url(../img/wallha.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -451,7 +460,7 @@ bootstrap.min.css:5
 	text-align: left;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.2);
 	/*height: 582px;*/
 	margin-left: -100vh;
 	padding-left: 100vh;
@@ -497,6 +506,7 @@ bootstrap.min.css:5
 
 .tabs a {
   display:block;
+  border-radius: 10px;
   text-align:center;
   text-decoration:none;
   text-transform:capitalize;
@@ -866,7 +876,7 @@ footer .connect-us ul li a:hover {
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 0.2);
 		margin-left: -15px;
 		padding-left: 0vh;
 		margin-right: -15px;
