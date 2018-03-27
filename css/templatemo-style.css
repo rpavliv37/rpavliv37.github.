@@ -809,7 +809,7 @@ footer .connect-us ul li a:hover {
     width: 100%;
     height: 100%;
     z-index: 900000;
-    background-color: rgba(0, 0, 0, 0.9);;
+    background-color: rgba(0, 0, 0, 0.7);;
 }
 
 .popup-close{
@@ -871,10 +871,6 @@ footer .connect-us ul li a:hover {
 
 	#portfolio .project-item {
 		margin: 15px 0px;
-	}
-
-	.popup-close{
-		right: 1%;
 	}
 
 	#blog .section-heading {
