@@ -803,7 +803,7 @@ footer .connect-us ul li a:hover {
 
 
 .fotorama-wrap{
-	display: none;
+	/*display: none;*/
 	position: fixed;
     top: 10%;
     width: 100%;
@@ -815,8 +815,10 @@ footer .connect-us ul li a:hover {
 .popup-close{
 	cursor: pointer;
 	position: absolute;
-	top: -1%;
-	right: 16%;
+	text-decoration: none;
+	z-index: 1000;
+	top: 1%;
+	right: 1%;
 	width: 2rem;
 	text-align: center;
 	border: none;
