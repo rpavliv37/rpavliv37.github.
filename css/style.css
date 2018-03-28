@@ -499,7 +499,7 @@ float: left;
 
 .tabs {
   list-style: none;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   padding-right: 70px;
 }
 
