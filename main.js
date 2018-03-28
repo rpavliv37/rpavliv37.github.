@@ -11,7 +11,7 @@ $(document).ready(function() {
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find('input').val('');
-			$('#form').trigger('reset');
+			$('#contact').trigger('reset');
 		});
 		return false;
 	});
