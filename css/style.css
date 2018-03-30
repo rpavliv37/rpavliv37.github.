@@ -398,6 +398,10 @@ bootstrap.min.css:5
 	padding: 100px 0px;
 }
 
+#testimonial h3{
+	color: #fff;
+	margin-bottom: 80px;
+}
 #testimonial .testimonials-item h4 {
 	color: #fff;
 	font-size: 17px;
@@ -991,6 +995,10 @@ footer .connect-us ul li a:hover {
 
 @media (max-width: 768px){
 
+	#about {
+	background-image: url(../img/walls-mobile.jpg);
+	}
+
 	.flex{
 		display: block;
 	}
@@ -1007,6 +1015,10 @@ footer .connect-us ul li a:hover {
 	}
 	.baner-content .text-content p {
 		padding: 0px 10%;
+	}
+
+	.baner-content {
+  	background-image: url(../img/wallha-mobile.jpg);
 	}
 	#main-nav {
 		margin-left: -15px;
