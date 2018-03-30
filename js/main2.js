@@ -59,7 +59,7 @@ $(document).ready(function() {
                 settings: {
                     dots: true,
                     slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
