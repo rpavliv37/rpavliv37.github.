@@ -998,7 +998,9 @@ footer .connect-us ul li a:hover {
 	#about {
 	background-image: url(../img/walls-mobile.jpg);
 	}
-
+	#blog {
+	background-image: url(../img/wallha-mobile.jpg);
+	}
 	.flex{
 		display: block;
 	}
@@ -1017,9 +1019,7 @@ footer .connect-us ul li a:hover {
 		padding: 0px 10%;
 	}
 
-	.baner-content {
-  	background-image: url(../img/wallha-mobile.jpg);
-	}
+	
 	#main-nav {
 		margin-left: -15px;
 		margin-right: -15px;
