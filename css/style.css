@@ -456,7 +456,7 @@ float: left;
 }
 
 #blog {
-	background-image: url(../img/wallha.jpg);
+	background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -896,7 +896,7 @@ footer .connect-us ul li a:hover {
  
   #blog {
     background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
-    background-size: 960px ;
+    /*background-size: 960px ;*/
   }
 }
 
