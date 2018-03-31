@@ -458,7 +458,7 @@ float: left;
 #blog {
 	background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-attachment: fixed;
 }
 
@@ -889,15 +889,13 @@ footer .connect-us ul li a:hover {
 /* RESPONSIVE */
 
 
-@media all and (-webkit-min-device-pixel-ratio : 1.5),
- all and (-o-min-device-pixel-ratio: 3/2),
- all and (min--moz-device-pixel-ratio: 1.5),
- all and (min-device-pixel-ratio: 1.5) {
- 
-  #blog {
-    background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
-    /*background-size: 960px ;*/
-  }
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    #blog{
+		background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
+    	background-size: 960px 540px;
+    }
 }
 
 @media (max-width: 991px){
