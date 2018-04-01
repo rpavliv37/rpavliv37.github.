@@ -456,9 +456,9 @@ float: left;
 }
 
 #blog {
-	background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
+	background-image: url(../img/stol-gerbery.jpg);
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
+	background-size: 1200px 800px;
 	background-attachment: fixed;
 }
 
@@ -888,16 +888,6 @@ footer .connect-us ul li a:hover {
 
 /* RESPONSIVE */
 
-
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-    #blog{
-		background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
-    	background-size: 960px 540px;
-    }
-}
-
 @media (max-width: 991px){
 
 	.arrow{
@@ -1010,9 +1000,6 @@ footer .connect-us ul li a:hover {
 
 @media (max-width: 768px){
 
-	#about {
-	background-image: url(../img/walls-mobile.jpg);
-	}
 	.flex{
 		display: block;
 	}
