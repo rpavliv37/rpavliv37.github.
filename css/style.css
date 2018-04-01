@@ -456,9 +456,9 @@ float: left;
 }
 
 #blog {
-	background-image: url(../img/stol-gerbery.jpg);
+	background-image: url(../img/tekstura-fon-listia-lepestki.jpg);
 	background-repeat: no-repeat;
-	background-size: 1200px 800px;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
