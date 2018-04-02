@@ -543,21 +543,21 @@
                 <div class="col-md-6 col-md-offset-3">
                     <div class="pop">
                         <span>✖</span>
-                        <form id="contact" method="post">
+                        <form id="contact" name="form">
                             <div class="row">
                                 <div class="col-md-12">
                                     <fieldset>
-                                        <input name="field[name]" type="text" class="form-control" id="name" placeholder="Ваше ім'я" required="">
+                                        <input name="name" type="text" class="form-control" id="name" placeholder="Ваше ім'я" required="">
                                     </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                     <fieldset>
-                                        <input name="field[email]" type="tel" class="form-control" id="email" placeholder="Номер телефону" required="">
+                                        <input name="phone" type="tel" class="form-control" id="email" placeholder="Номер телефону" required="">
                                     </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                     <fieldset>
-                                        <textarea name="field[message]" rows="6" class="form-control" id="message" placeholder="Повідомлення..." required=""></textarea>
+                                        <textarea name="mess" rows="6" class="form-control" id="message" placeholder="Повідомлення..." required=""></textarea>
                                     </fieldset>
                                 </div>
                                 <div class="col-md-12">
@@ -613,6 +613,14 @@
                 </div>
             </div>
         </div>
+
+        <div class="overlay js-overlay-thank-you">
+            <div class="popup js-thank-you">
+                <img src="img/logo.png" alt="logo" width="40" style="text-align: center;">
+                <p style="text-align: center">Дякуємо! Ваше повідомлення відправлено.</p>
+                <div class="close-popup js-close-thank-you"></div>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script> -->
@@ -622,17 +630,8 @@
     <!-- slick slider -->
     <script src="slick-1.8.0/slick/slick.min.js"></script>
     <script src="js/main2.js"></script>
-    <script>
-$(document).ready(function() {
-    $('#contact').submit(function(){
-        $.post("<?= CURRENT_URL ?>", $("#contact").serialize(),  function(response) {
-            $('#contact').hide('slow');
-            $('#post_form_success').html(response);
-        });
-        return false;
-    });
-});
-</script>
+    <script src="main.js"></script>
+    <script src="jquery.maskedinput.js"></script>
 </body>
 
 </html>
