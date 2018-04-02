@@ -247,9 +247,10 @@ p {
 
 
 #about {
+	width: 100%;
+    height: 100%;
 	padding: 150px 0px;
-	background-image: url(../img/walls.jpg);
-	background-repeat: no-repeat;
+	background: url(../img/walls.jpg) center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
